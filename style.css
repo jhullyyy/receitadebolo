@@ -1,0 +1,39 @@
+body{
+    max-width: 600px; /*para definir a largura do meu coonteúdo na tela*/
+    margin:auto;
+    color: #535355;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+    padding: 0.5rem;
+
+}
+h1, h2{
+    background-color: #fd7e07;
+    padding: 10px;
+    color: #fff;
+}
+h1{
+    margin:0px;
+}
+.centralizar{
+    text-align: center;
+}
+ol, ul{ /*Espaço entre itens da lista*/
+    line-height: 30px;
+}
+.btn{
+    background-color: #fd4d07;
+    color: #ffff;
+    text-decoration: none;
+    padding: 15px 32px; /* não usar vírgulaaa, o css entende*/
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: #fd4d0767;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
